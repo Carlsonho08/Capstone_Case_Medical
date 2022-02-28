@@ -1,0 +1,3 @@
+# Capstone_Case_Medical
+NJIT 2022 Capstone Project. 
+Case Medical is a medical device manufacturer that develops software for the healthcare community and for its internal engineering and manufacturing needs. We have identified a need that would address both healthcare and industry for inspection of various items before and after production. Quality assurance and quality control are important in today's engineering and  manufacturing environments. However, quality assurance is even more important for patient care. We are seeking to create a software platform that integrates with our existing ERP system and with out healthcare based asset management software
