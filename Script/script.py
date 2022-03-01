@@ -1,5 +1,6 @@
 import cv2 as cv
 
-img = cv.imread('images/logo.jpeg')
+img = cv.imread('Images/test_image1.jpeg')
 
-
+cv.imshow('Case', img)
+cv.waitKey(0)
