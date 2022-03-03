@@ -1,17 +1,27 @@
-#import the required modules
-import cv2 as cv
+import numpy as np
+import cv2
 
-# create img object to be read, second parameter is changing image transparency
-img = cv.imread('Images/test_image1.jpeg', 0)
+# 0 for grayscale, -1 for color
+img = cv2.imread('Images/test_image1.jpeg', 0)
+template = cv2.imread('Images/blue.jpeg', 0)
 
-#allows you to display the image, first parameter 
-# is the name output, second parameter is the img object
-cv.imshow('Case', img)
 
-#wait however many second, this case infinite seconds until user hits a button
-#which will execute the next line of code
-cv.waitKey(0)
+# resizing image. fx, fy. multiplies the pixels by this number, >1 shrink <1 increases
+img = cv2.resize(img, (0, 0), fx=1, fy=1)
 
-#closes all the windows once we press a button, so that we don't have random
-#windows opened
-cv.destroyAllWindows() 
+# rotate the image 90 degrees clockwise
+img = cv2.rotate(img, cv2.cv2.ROTATE_90_CLOCKWISE)
+
+# writes a new image
+cv2.imwrite('new_image1.jpeg', img)
+cv2.imshow('test_image1.jpeg', img)
+
+# prints pixel values of the image, height and width
+banana = str(img.shape)
+print("Height, Width: " + banana)
+
+# pixel values in the numpy array
+print(img[0])
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
