@@ -24,6 +24,7 @@ for method in methods:
     else:
         location = max_loc
 
+    # forming the rectangle around the template image
     bottom_right = (location[0] + width, location[1] + height)
     cv2.rectangle(img2, location, bottom_right, 255, 2)
 
@@ -31,16 +32,3 @@ for method in methods:
     cv2.waitKey(0)
     cv2.destroyAllWindows()
     
-
-# resizing image. fx, fy. multiplies the pixels by this number, >1 shrink <1 increases
-# img = cv2.resize(img, (0, 0), fx=1, fy=1)
-
-# rotate the image 90 degrees clockwise
-# img = cv2.rotate(img, cv2.cv2.ROTATE_90_CLOCKWISE)
-
-# writes a new image
-#cv2.imwrite('new_image1.jpeg', img)
-#cv2.imshow('test_image1.jpeg', img)
-
-#cv2.waitKey(0)
-#cv2.destroyAllWindows()
