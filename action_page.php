@@ -2,9 +2,9 @@
 if(isset($_POST["formSubmit"]) )
 {
   $varSets = $_POST["mysets"];
-  $varFile = $_POST["myfile"];
+  $image = $_FILES['myfile'];
   setcookie("mysets", $varSets, time()+600);
-  setcookie("myfile", $varFile, time()+600);
+  setcookie("myfile", $image, time()+600);
     $varRedirect = "results.html";
     redirect($varRedirect);
 
