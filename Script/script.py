@@ -1,6 +1,6 @@
 import numpy as np
 import cv2
-
+#
 # 0 for grayscale, -1 for color
 img = cv2.imread('Images/test_image1.jpeg', 0)
 template = cv2.imread('Images/blue.jpeg', 0)
