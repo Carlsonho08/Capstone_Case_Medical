@@ -2,9 +2,9 @@ import numpy as np
 import cv2
 
 # load image, 0 for grayscale, -1 for color
-img = cv2.imread('Images/test_image1.jpeg', 0)
+img = cv2.imread('Images/prefinal sheet.jpg', 0)
 # load template image to look for in first image
-template = cv2.imread('Images/blue.jpeg', 0)
+template = cv2.imread('Images/finalsheet.jpg', 0)
 height, width = template.shape
 
 # different methods for template matching

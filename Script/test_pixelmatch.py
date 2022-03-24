@@ -4,8 +4,8 @@ from pixelmatch.contrib.PIL import pixelmatch
 # small script to test pixelmatch, uses python imaging library
 
 # images for the comparison
-img_1 = Image.open("Images/1.jpg")
-img_2 = Image.open("Images/2.jpg")
+img_1 = Image.open("Images/finalsheet.jpg")
+img_2 = Image.open("Images/prefinal sheet.jpg")
 
 # comparison image that gets created, mode and size of first image
 img_diff = Image.new("RGBA", img_1.size)
