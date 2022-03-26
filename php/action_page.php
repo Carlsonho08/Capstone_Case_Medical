@@ -1,6 +1,8 @@
 <?php
 if(isset($_POST["formSubmit"]) )
 {
+  echo "Welcome " . $_COOKIE["mysets"] . "<br />";
+  
   $varSets = $_POST["mysets"];
   $image = $_FILES['myfile'];
   $blueprint = $_FILES['blueprint'];
