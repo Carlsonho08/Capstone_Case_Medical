@@ -29,7 +29,7 @@ import matplotlib.pyplot as plt
 #     cv2.rectangle(img2, location, bottom_right, 255, 2)
 
 
-image = cv2.imread('Images/diff.png')
+image = cv2.imread('Images/finalsheet.jpg')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
  
 blur = cv2.GaussianBlur(gray, (11, 11), 0)
@@ -42,6 +42,7 @@ rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 cv2.drawContours(rgb, cnt, -1, (0, 255, 0), 2)
  
 plt.imshow(rgb)
+plt.show()
 print("hole count : ", len(cnt))
 
 #cv2.imshow('Template Matching', img2)
