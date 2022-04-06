@@ -2,12 +2,31 @@
 <html>
 <body>
 
-<h1>Compare results</h1>
-
-<h3>fnojaiskflafa</h3>
-
-
-
-
+    <html>
+        <head>
+            <script type="text/javascript">
+                function init() {
+                    var race = getCookie('race');
+                        document.getElementById("test").innerHTML = race;
+                        document.cookie = "race=; expires=Thu, 01 Jan 1970 00:00:00 UTC"; 
+                }
+        
+        function getCookie(cname) {
+            var name = cname + "=";
+            var ca = document.cookie.split(';');
+            for(var i=0; i<ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0)==' ') c = c.substring(1);
+                if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+            }
+            return "";
+        } 
+            </script>
+        </head>
+        <body onload="init()">
+            your race is :
+            <p id='test'></p>
+        </body>
+        </html>
 </body>
 </html>

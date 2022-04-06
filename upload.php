@@ -24,7 +24,7 @@
 
 
 
-    <a href='action_page.php'>
+    <a href='results.html'>
       <button type="button" name="formSubmit" value="submit">Submit</button>
     </a>
 </form>
