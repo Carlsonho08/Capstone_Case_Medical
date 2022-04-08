@@ -33,25 +33,33 @@ if (isset($_POST['submit'])) {
 
         if (in_array($fileActualExt, $acceptedFileExt) === false) {
             echo
-            "<script> alert ('The image you have chosen does not have an accepted extension, please make sure it has an extension of: jpg, jpeg, png!'); </script>"
+            "<script> alert ('There was no image uploaded or the image you have chosen does not have an accepted extension, please make sure it has an extension of: jpg, jpeg, png!'); 
+            document.location.href = 'uploadpg.php';
+            </script>"
             ;
         }
 
         else if (in_array($pdfActualExt, $acceptedPdfExt) === false) {
             echo
-            "<script> alert ('The pdf you have chosen does not have an accepted extension, please make sure it has an extension of: pdf'); </script>"
+            "<script> alert ('There was no pdf uploaded or the pdf you have chosen does not have an accepted extension, please make sure it has an extension of: pdf'); 
+            document.location.href = 'uploadpg.php';
+            </script>"
             ;
         }
 
         else if ($fileSize > 10485760 ) {
             echo
-            "<script> alert ('The photo you have chosen to upload is too big, make sure it is under 10MB!'); </script>"
+            "<script> alert ('The photo you have chosen to upload is too big, make sure it is under 10MB!'); 
+            document.location.href = 'uploadpg.php';
+            </script>"
             ;       
         }
 
         else if ($fileSize > 10485760 ) {
             echo
-            "<script> alert ('The pdf you have chosen to upload is too big, make sure it is under 10MB!'); </script>"
+            "<script> alert ('The pdf you have chosen to upload is too big, make sure it is under 10MB!'); 
+            document.location.href = 'uploadpg.php';
+            </script>"
             ;
         }
 

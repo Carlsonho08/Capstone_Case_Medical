@@ -1,7 +1,7 @@
 <<!DOCTYPE html>
 <html>
     <head>
-        <title>W3.CSS Template</title>
+        <title>CaseVision</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
@@ -39,7 +39,7 @@
             <div class="w3-right w3-hide-small">
                 <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
                 <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
-                <a href="uploadpage.php" class="w3-bar-item w3-button"><i class="fa fa-th"></i> UPLOAD</a>
+                <a href="uploadpg.php" class="w3-bar-item w3-button"><i class="fa fa-th"></i> UPLOAD</a>
                 <a href="https://www.casemed.com/index.php" class="w3-bar-item w3-button"><i class="fa fa-desktop"></i> WEBSITE</a>
                 <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
             </div>
@@ -54,7 +54,7 @@
         <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
         <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
         <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
-        <a href="uploadpage.php" onclick="w3_close()" class="w3-bar-item w3-button">UPLOAD</a>
+        <a href="uploadpg.php" onclick="w3_close()" class="w3-bar-item w3-button">UPLOAD</a>
         <a href="https://www.casemed.com/index.php" onclick="w3_close()" class="w3-bar-item w3-button">WEBSITE</a>
         <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
     </nav>
@@ -64,7 +64,7 @@
         <div class="w3-display-left w3-text-white" style="padding:48px">
             <span class="w3-jumbo w3-hide-small">Quality Assurance Checks for Our Cases</span><br>
             <span class="w3-xxlarge w3-hide-large w3-hide-medium">Quality Assurance Checks for Our Cases</span><br>
-            <p><a href="uploadpage.php" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Begin and upload a picture of a case.</a></p>
+            <p><a href="uploadpg.php" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Begin and upload a picture of a case.</a></p>
         </div> 
         <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
             <i class="fa fa-facebook-official w3-hover-opacity"></i>
@@ -108,8 +108,8 @@
     <div class="w3-container" style="padding:128px 16px" id="team">
         <h3 class="w3-center">The NJIT Team</h3>
         <p class="w3-center w3-large">This is the team of NJIT students who created the web-application!</p>
-        <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
-            <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-row-padding w3-grayscale-min" style="margin-top:64px">
+            <div class="w3-col l2 m4 w3-margin-bottom">
                 <div class="w3-card">
                     <img src="siteImg/linkdin photos (2).png" alt="John" style="width:100%">
                     <div class="w3-container">
@@ -119,7 +119,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-col l2 m4 w3-margin-bottom">
                 <div class="w3-card">
                     <img src="siteImg/linkdin photos (2).png" alt="James" style="width:100%">
                     <div class="w3-container">
@@ -129,7 +129,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-col l2 m4 w3-margin-bottom">
                 <div class="w3-card">
                     <img src="siteImg/linkdin photos (2).png" alt="Mike" style="width:100%">
                     <div class="w3-container">
@@ -139,7 +139,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-col l2 m4 w3-margin-bottom">
                 <div class="w3-card">
                     <img src="siteImg/linkdin photos (2).png" alt="Dan" style="width:100%">
                     <div class="w3-container">
@@ -149,7 +149,7 @@
                     </div>
                 </div>
             </div>
-            <div class="w3-col l3 m6 w3-margin-bottom">
+            <div class="w3-col l2 m4 w3-margin-bottom">
                 <div class="w3-card">
                     <img src="siteImg/linkdin photos (2).png" alt="John" style="width:100%">
                     <div class="w3-container">
@@ -162,7 +162,7 @@
         </div>
     </div>
 
-    <!-- Promo Section "Statistics" -->
+    <!-- Promo Section -->
     <div class="w3-container w3-row w3-center w3-blue-grey w3-padding-64">
         <div class="w3-quarter">
             <span class="w3-xxlarge">14+</span>
@@ -182,7 +182,7 @@
         </div>
     </div>
 
-    <!-- Skills Section -->
+    <!-- Test Statistics Section -->
     <div class="w3-container w3-light-grey w3-padding-64">
         <div class="w3-row-padding">
             <div class="w3-col m6">
@@ -213,7 +213,7 @@
     <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
         <h3 class="w3-center">CONTACT INFORMATION</h3>
         <p class="w3-center w3-large">For questions or concerns, please contact Case Medical Inc. @:</p>
-        <div style="margin-top:48px">
+        <div class = "w3-center"style="margin-top:48px">
             <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> 50 West Street, Bloomfield, NJ 07003 | Mon - Fri: 8 a.m.-6 p.m.</p>
             <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: 1-888-277-CASE</p>
             <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: info@casemed.com</p>
@@ -225,12 +225,13 @@
     </div>
 
     <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-64">
+    <footer class="w3-center w3-blue-grey w3-padding-64">
     <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
     <div class="w3-xlarge w3-section">
         <a href="https://www.facebook.com/casemedical/"><i class="fa fa-facebook w3-hover-opacity"></i></a>
         <a href = "https://twitter.com/casemedical"><i class="fa fa-twitter w3-hover-opacity"></i></a>
         <a href = "https://www.linkedin.com/company/case-medical-inc./"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+        <p class="w3-center w3-large">NJIT Capstone Program: Spring 2022</p>
     </div>
     </footer>
     
