@@ -5,4 +5,4 @@ from test_circlecount import *
 # test = 'Images/finalsheet.jpg'
 # ask for input in command line for image 
 test = (str)(input('File location: '))
-file = main(test)
+file = inputImage(test)
