@@ -1,14 +1,12 @@
 import cv2
-import numpy as np
 import matplotlib.pyplot as plt
-
 
 def inputImage (file):
     image = cv2.imread(file)
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
  
     blur = cv2.GaussianBlur(gray, (11, 11), 0)
-    canny = cv2.Canny(blur, 150, 200, 3)
+    canny = cv2.Canny(blur, 160, 200, 3)
     dilated = cv2.dilate(canny, (1, 1), iterations=0)
     
     (cnt, hierarchy) = cv2.findContours(
