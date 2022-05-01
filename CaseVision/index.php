@@ -20,7 +20,7 @@
             .bgimg-1 {
             background-position: center;
             background-size: cover;
-            background-image: url(siteImg/r.jpg);
+            background-image: url(SiteImg/r.jpg);
             min-height: 100%;
             }
 
@@ -81,25 +81,20 @@
         <h3 class="w3-center">ABOUT CASEVISION</h3>
         <p class="w3-center w3-large">Key features of our web application</p>
         <div class="w3-row-padding w3-center" style="margin-top:64px">
-            <div class="w3-quarter">
+            <div class="w3-third">
                 <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
                 <p class="w3-large">Responsive</p>
                 <p>The website has been made to be responsive and accessible on any sized device. </p>
             </div>
-            <div class="w3-quarter">
-                <i class="fab fa-python w3-margin-bottom w3-jumbo"></i>
-                <p class="w3-large">Python</p>
-                <p>The web application is coded using python...</p>
+            <div class="w3-third">
+                <i class="fa fa-code w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Coding Languages</p>
+                <p>The front end of the web app is coded using HTML5, CSS, PHP, and JavaScript | The back end is coded using Python</p>
             </div>
-            <div class="w3-quarter">
+            <div class="w3-third">
                 <i class="fa fa-lightbulb-o w3-margin-bottom w3-jumbo"></i>
                 <p class="w3-large">Machine Learning</p>
-                <p>Machine Learning Summary</p>
-            </div>
-            <div class="w3-quarter">
-                <i class="fa fa-database w3-margin-bottom w3-jumbo"></i>
-                <p class="w3-large">Relational Database Connection</p>
-                <p>Each session is recorded in a relational database with connectivity to employee data stores should you require a login. </p>
+                <p>Python application uses open source machine learning libraries (OpenCV, TensorFlow, and Keras) and Data Analytics Libraries (Numpy, Matplotlib, and Pandas).</p>
             </div>
         </div>
     </div>
@@ -111,17 +106,17 @@
         <div class="w3-row-padding w3-grayscale-min" style="margin-top:64px">
             <div class="w3-col l2 m4 w3-margin-bottom">
                 <div class="w3-card">
-                    <img src="siteImg/linkdin photos (2).png" alt="John" style="width:100%">
+                    <img src="SiteImg/darshan.jpg" alt="Darshan" style="width:100%">
                     <div class="w3-container">
                         <h3>Darshan Patel</h3>
-                        <p class="w3-opacity">Python Guy 1</p>
-                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p class="w3-opacity">Back End Developer</p>
+                        <p>NJIT senior, expected to graduate with a BS in Business & Information Systems.</p>
                     </div>
                 </div>
             </div>
             <div class="w3-col l2 m4 w3-margin-bottom">
                 <div class="w3-card">
-                    <img src="siteImg/linkdin photos (2).png" alt="James" style="width:100%">
+                    <img src="SiteImg/james.png" alt="James" style="width:100%">
                     <div class="w3-container">
                         <h3>James Ferry</h3>
                         <p class="w3-opacity">Web Designer</p>
@@ -131,31 +126,31 @@
             </div>
             <div class="w3-col l2 m4 w3-margin-bottom">
                 <div class="w3-card">
-                    <img src="siteImg/linkdin photos (2).png" alt="Mike" style="width:100%">
+                    <img src="SiteImg/jp.jpg" alt="JP" style="width:100%">
                     <div class="w3-container">
                         <h3>Jeanpierre Rea</h3>
-                        <p class="w3-opacity">Python Guy 2</p>
-                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p class="w3-opacity">Back End Developer </p>
+                        <p>NJIT senior, graduating with a BS in Information Technology.</p>
                     </div>
                 </div>
             </div>
             <div class="w3-col l2 m4 w3-margin-bottom">
                 <div class="w3-card">
-                    <img src="siteImg/linkdin photos (2).png" alt="Dan" style="width:100%">
+                    <img src="SiteImg/Juan.jpg" alt="Juan" style="width:100%">
                     <div class="w3-container">
                         <h3>Juan Ceballos</h3>
-                        <p class="w3-opacity">Python Guy 3</p>
-                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p class="w3-opacity">Back End Developer</p>
+                        <p>NJIT senior, expected to graduate with a BS in Computer Science</p>
                     </div>
                 </div>
             </div>
             <div class="w3-col l2 m4 w3-margin-bottom">
                 <div class="w3-card">
-                    <img src="siteImg/linkdin photos (2).png" alt="John" style="width:100%">
+                    <img src="SiteImg/ka.jpg" alt="Ka" style="width:100%">
                     <div class="w3-container">
                         <h3>Ka Chun Ho</h3>
                         <p class="w3-opacity">Project Manager</p>
-                        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                        <p>NJIT senior, skilled in frontend development and project management, a MS student at Business information system starting Fall 2022.</p>
                     </div>
                 </div>
             </div>
@@ -165,25 +160,25 @@
     <!-- Promo Section -->
     <div class="w3-container w3-row w3-center w3-blue-grey w3-padding-64">
         <div class="w3-quarter">
-            <span class="w3-xxlarge">14+</span>
-            <br>Partners
+            <span class="w3-xxlarge"></span>
+            <br>Quality of Care
         </div>
         <div class="w3-quarter">
-            <span class="w3-xxlarge">55+</span>
-            <br>Projects Done
+            <span class="w3-xxlarge"></span>
+            <br>Cost Effective
         </div>
         <div class="w3-quarter">
-            <span class="w3-xxlarge">89+</span>
-            <br>Happy Clients
+            <span class="w3-xxlarge"></span>
+            <br>Successful Outcomes
         </div>
         <div class="w3-quarter">
-            <span class="w3-xxlarge">150+</span>
-            <br>Meetings
+            <span class="w3-xxlarge"></span>
+            <br>Infection Prevention
         </div>
     </div>
 
     <!-- Test Statistics Section -->
-    <div class="w3-container w3-light-grey w3-padding-64">
+    <!--<div class="w3-container w3-light-grey w3-padding-64">
         <div class="w3-row-padding">
             <div class="w3-col m6">
                 <h3>Test Statistics</h3>
@@ -207,7 +202,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Contact Section -->
     <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
@@ -220,7 +215,7 @@
             <br>
 
             <!-- Image of location/map -->
-            <img src="siteImg/Location.png" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
+            <img src="SiteImg/Location.png" class="w3-image w3-greyscale" style="width:100%;margin-top:48px">
         </div>
     </div>
 

@@ -26,7 +26,7 @@
             }
 
             .image-preview {
-                width: 600px;
+                width: 100%;
                 min-height: 300px;
                 border: 2px solid #A9A9A9;
                 margin-top: 15px;
@@ -69,7 +69,7 @@
     </nav>
 
     <!-- Upload Section -->
-    <form method = "POST" enctype = "multipart/form-data">
+    <form method = "POST" action= "results.php" enctype = "multipart/form-data">
         <div class="w3-container" style="padding:128px 16px" id="about">
             <h3 class="w3-center">Begin Comparison</h3>
             <p class="w3-center w3-large">To begin the comparison, please select the following:</p>
@@ -129,10 +129,11 @@
                     <input type = "file" name = "pdf" accept=".pdf" required><br>
                 </div>
             </div>
+
             <div class="w3-container" style="padding:128px 16px" id="upload">
                 <h3 class="w3-center">Begin Quality Check</h3>
                 <p class="w3-center w3-large">Once you have uploaded the desired files, press begin!</p>
-                <button class = "button" type = "submit" name = "submit">Begin</button>
+                <input class = "button" type="submit" value = "Begin Comparing">
             </div>
         </div>
     </form>

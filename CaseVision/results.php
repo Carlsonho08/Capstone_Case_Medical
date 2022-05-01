@@ -25,6 +25,23 @@
             padding: 16px;
             }
 
+            .image-preview {
+                width: 100%;
+                min-height: 300px;
+                border: 2px solid #A9A9A9;
+                margin-top: 15px;
+
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                font-weight: bold;
+                color: #A9A9A9;
+            }
+
+            .image-preview__image {
+                display: none;
+                width: 100%;
+            }
         </style>
     </head>
 <body>
@@ -52,40 +69,17 @@
     </nav>
 
     <!-- Upload Section -->
-    <form action = "upload.php" method = "POST" enctype = "multipart/form-data">
-        <div class="w3-container" style="padding:128px 16px" id="about">
-            <h3 class="w3-center">Begin Comparison</h3>
-            <p class="w3-center w3-large">To begin the comparison, please select the following:</p>
-            <div class="w3-row-padding w3-center" style="margin-top:64px">
-                <div class="w3-third">
-                    <i class="fa fa-medkit w3-margin-bottom w3-jumbo w3-center"></i>
-                    <p class="w3-large">Case Type</p>
-                    <p>Select the type of case you would like to compare:</p>
-                    <select name="mysets" id="mysets">
-                        <option value="flat">Flat Case</option>
-                        <option value="assembled">Folded/ Assembled Case</option>
-                    </select><br>
-                </div>
-                <div class="w3-third">
-                    <i class="fa fa-file-photo-o w3-margin-bottom w3-jumbo"></i>
-                    <p class="w3-large">Taken Image</p>
-                    <p>Upload a picture of the case you are comparing (must be a .jpg .jpeg or .png)</p>
-                    <input type = "file" name = "file"><br>
-                </div>
-                <div class="w3-third">
-                    <i class="fa fa-file-pdf-o w3-margin-bottom w3-jumbo"></i>
-                    <p class="w3-large">Blueprint</p>
-                    <p>Upload the blueprint of your case (must be a .pdf)</p>
-                    <input type = "file" name = "pdf"><br>
-                </div>
-            </div>
-            <div class="w3-container" style="padding:128px 16px" id="team">
-                <h3 class="w3-center">Submit</h3>
-                <p class="w3-center w3-large">When you have chosen your case type and uploaded your photo and pdf press submit.</p>
-                <button class = "button" type = "submit" name = "submit">UPLOAD</button>
-            </div>
+
+    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+        <img src="SiteImg/result1.png" class="w3-image" style="width: 100%; margin-top: 48px">
+    </div>
+
+    <div class="w3-container w3-row w3-center w3-blue-grey w3-padding-64">
+        <div class="w3-center">
+            <span class="w3-xxlarge">1436</span>
+            <br>Recognized Shapes
         </div>
-    </form>
+    </div>
 
     <!-- Footer -->
     <footer class="w3-center w3-blue-grey w3-padding-64">
